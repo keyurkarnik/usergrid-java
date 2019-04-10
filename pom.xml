@@ -17,6 +17,13 @@
         </release.repository.url>
     </properties>
 
+    <distributionManagement>
+        <snapshotRepository>
+      	    <id>apache.snapshots</id>
+            <url>https://repository.apache.org/content/repositories/snapshots</url>
+        </snapshotRepository>
+    </distributionManagement>
+
     <modelVersion>4.0.0</modelVersion>
     <groupId>org.apache.usergrid</groupId>
     <artifactId>usergrid-java-client</artifactId>
